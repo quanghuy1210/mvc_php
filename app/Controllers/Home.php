@@ -17,7 +17,7 @@ class Home extends Controller{
 
 		// $data = $this->send(200,$data);
 
-		return $this->view('home/a',$data,200);
+		return $this->view('home/index',$data,200);
 	}
 
 	
